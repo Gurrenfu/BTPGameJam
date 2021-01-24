@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abc017c8e2d567b49b895bfac1e5352b, type: 3}
+  m_Name: OrbRoomOpen
+  m_EditorClassIdentifier: 
+  Description: 'Suddenly there is a shower of dust. The door back to the entrance
+    slams shut behind you. '
+  roomName: orb room
+  exits:
+  - keyString: west
+    exitDescription: A secret door opens to the west
+    valueRoom: {fileID: 11400000, guid: c12eb3275a3d64547aa1dbe9c8961c77, type: 2}
+  interactableObjectsInRoom: []
